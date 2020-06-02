@@ -57,7 +57,7 @@ class Board extends Component {
                     <label htmlFor='Team'><strong>Add your team members</strong></label><br></br>
                     <input type = "text" id = "team" name="Team" placeholder = "Add your team (separated by commas)"onChange = {this.inputHandler} /><br></br>
                     <label htmlFor='Type' id="team"><strong>Enter the type of your board</strong></label><br></br>
-                    <input type="text" name="Type" placeholder = "e.g Design UX" onChange = {this.inputHandler} />
+                    <input type="text" name="Type" id="type"  placeholder = "e.g Design UX" onChange = {this.inputHandler} />
                 </form><br></br>
                 <button type="button" class="btn btn-primary" id="CreateBoard" onClick = {this.myBoardHandler}>Create</button>
                 
