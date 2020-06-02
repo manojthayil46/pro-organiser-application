@@ -1,0 +1,18 @@
+.Delete_Board{
+        display: flex;
+        justify-content: space-Between;
+        margin: 10px;      
+}
+
+.BoardDetails{
+     display: flex;
+     flex-wrap: wrap;
+}
+
+.formbtn{
+    background-color: #D3D3D3;
+    height: 20rem;
+    width: 18rem;
+    padding-top: 2px;
+    
+}
