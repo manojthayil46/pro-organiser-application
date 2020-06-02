@@ -87,7 +87,7 @@ class BoardDetails extends Component {
                   close = {this.closeModal}
                 />
               ) : null}
-              <button className={Styles.formbtn} onClick={this.columnHandler}>Add a Column</button>
+              <button className={Styles.formbtn} onClick={this.columnHandler}>Add a column</button>
             </div>
           </>
         );
